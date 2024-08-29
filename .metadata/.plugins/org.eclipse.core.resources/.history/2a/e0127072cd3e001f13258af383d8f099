@@ -1,0 +1,39 @@
+package pwskill.in.pwskill.nikhil.spring.core;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+class Solution {
+
+    // Note that the size of the array is n-1
+    int missingNumber(int n, int arr[]) {
+
+        // 1,2,3,5
+        int realSum = n(n+1)/2;//15
+        int sum = 0;
+        for(int i = 1;i<=arr.length;i++){
+            sum += arr[i];
+        }
+        int missingNum = realSum-sum;
+        return missingNum;
+        
+    }
+}
+public class App 
+{
+    public static void main( String[] args )
+    {
+
+    	ApplicationContext context = new AnnotationConfigApplicationContext(empConfig.class);
+    	Employee employee = context.getBean("emp", Employee.class);
+		System.out.println(employee);
+		
+		//close the container
+		((AbstractApplicationContext) context).close();
+
+    }
+}

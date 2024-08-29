@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;14-spring-@ValueObject&apos; to &apos;15-spring-@ValueObject&apos;" description="Rename resource &apos;14-spring-@ValueObject&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/14-spring-@ValueObject" name="15-spring-@ValueObject" stamp="1718950343200" updateReferences="true"/>
+</session>
